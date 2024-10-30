@@ -1,0 +1,19 @@
+{
+  "name": "ExtraerTextoDePDF",
+  "description": "Extrae el texto de un archivo PDF proporcionado.",
+  "actions": [
+    {
+      "name": "extraer_texto_del_pdf",
+      "parameters": {
+        "ruta_pdf": {
+          "type": "string",
+          "description": "La ruta del archivo PDF"
+        }
+      },
+      "returns": {
+        "type": "string",
+        "description": "El texto extraído del PDF"
+      }
+    }
+  ]
+}
